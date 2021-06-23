@@ -19,6 +19,7 @@ html {
     --grey-dark: #4d5e77;
     --grey-blue: #a1b2cd;
     --grey-light: #e5eaf1;
+    --grey-medium: #eaecf2;
 
     font-size: 62.5%;
 }
@@ -86,8 +87,8 @@ button:hover,
     filter: brightness(1.2);
 }
 
-button img,
-.button img {
+button > img,
+.button > img {
     margin-right: 1rem;
     width: 2rem;
 }
