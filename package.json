@@ -1,0 +1,24 @@
+{
+    "name": "roquetq",
+    "version": "1.0.0",
+    "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuarios direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat, missao discover",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pedrogutierresbr/roquet.q.git"
+    },
+    "keywords": [],
+    "author": "Pedro Gutierres",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pedrogutierresbr/roquet.q/issues"
+    },
+    "homepage": "https://github.com/pedrogutierresbr/roquet.q#readme",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1"
+    }
+}
