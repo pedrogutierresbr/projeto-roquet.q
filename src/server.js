@@ -10,6 +10,7 @@ server.use(express.static("public"));
 
 server.set("views", path.join(__dirname, "views"));
 
+// config do middleware
 server.use(express.urlencoded({ extended: true }));
 
 server.use(route);
