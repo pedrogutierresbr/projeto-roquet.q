@@ -62,6 +62,13 @@
                     <div class="questions">
                         <!-- Questions -->
 
+                        <% if(isNoQuestions){ %>
+                        <!-- Renderizar fundo de quando não tiver questões -->
+                        <%- include('parts/no-questions') %>
+                        <!--  -->
+                        <% } %>
+
+                        <!--  -->
                         <% questions.forEach(question => { %>
 
                         <div class="question-wrapper">
