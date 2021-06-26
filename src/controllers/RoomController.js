@@ -43,4 +43,10 @@ module.exports = {
 
         res.render("room", { roomId: roomId, questions: questions, questionsRead: questionsRead });
     },
+
+    enter(req, res) {
+        const roomId = req.body.roomId;
+
+        res.redirect(`/room/${roomId}`);
+    },
 };
