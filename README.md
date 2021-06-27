@@ -8,7 +8,7 @@ Rocket.Q is an interaction application through questions, which makes it possibl
 
 ![Layout](https://github.com/pedrogutierresbr/roquet.q/blob/main/public/images/gif-desktop.gif?raw=true)
 
-##Technologies used
+## Technologies used
 
 -   HTML
 -   CSS
