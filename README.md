@@ -2,7 +2,7 @@
 
 ## About the project
 
-Rocket.Q is an interaction application through questions, which makes it possible to create a room for people to ask questions and the creator of the room, in possession of a password, manages the questions asked by marking them as read or deleting them.
+Rocket.Q is an interaction application through questions, which makes it possible to create a room for people to ask questions and the creator of the room, in possession of a password, manages the questions asked by marking them as read or deleting them. The project was developed during the Rocketseat NLW Together event.
 
 ## Layout
 
