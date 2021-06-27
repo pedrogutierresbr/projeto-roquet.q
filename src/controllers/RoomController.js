@@ -51,9 +51,23 @@ module.exports = {
         res.render("room", { roomId: roomId, questions: questions, questionsRead: questionsRead, isNoQuestions: isNoQuestions });
     },
 
-    enter(req, res) {
+    async enter(req, res) {
+        const db = await Database();
         const roomId = req.body.roomId;
+        let isRoom = true;
 
-        res.redirect(`/room/${roomId}`);
+        while (isRoom) {
+            //Verifica se o numero da sala criado ja existe
+            const roomsExistIds = await db.all(`SELECT id FROM rooms`);
+
+            isRoom = roomsExistIds.some((roomExistId) => roomExistId === roomId);
+
+            if (!isRoom) {
+                res.redirect(`/non-existent`);
+            } else {
+                res.redirect(`/room/${roomId}`);
+            }
+        }
+        await db.close();
     },
 };
