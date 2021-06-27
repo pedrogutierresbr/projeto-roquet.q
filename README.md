@@ -36,4 +36,5 @@ npm start -> To start the local server (to access the project via browser, type 
 
 ## Author
 
-Pedro Gabriel Gutierres de Faria See my LinkedIn
+Pedro Gabriel Gutierres de Faria
+See my [LinkedIn](https://www.linkedin.com/in/pedro-gutierres/)
