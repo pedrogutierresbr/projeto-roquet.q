@@ -27,6 +27,9 @@ After installing Node JS:
 clone the repository
 git clone https://github.com/pedrogutierresbr/roquet.q.git
 
+Access the project folder in the terminal/cmd
+cd roquet.q
+
 In the terminal execute:
 npm install -> To install project dependencies
 
