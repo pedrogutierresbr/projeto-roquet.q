@@ -25,7 +25,7 @@ After installing Node JS:
 
 ```README
 clone the repository
-https://github.com/pedrogutierresbr/roquet.q.git
+git clone https://github.com/pedrogutierresbr/roquet.q.git
 
 In the terminal execute:
 npm install -> To install project dependencies
